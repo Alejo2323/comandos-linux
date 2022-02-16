@@ -19,4 +19,4 @@
 | ps -aux | Contenido de la celda  | Contenido de la celda  |
 |ps -aux \| grep “firefox”| Contenido de la celda  | Contenido de la celda  |
 |ip addr| Contenido de la celda  | Contenido de la celda  |
-|top|  Contenido de la celda |     ontenido de la celda    |
+|top|  Contenido de la celda |     ontenido de la celda    | 
