@@ -1,6 +1,5 @@
 | Comando | Descripción | Ejemplo de Uso  |
 |  :---:  |   :---:  |  :---:  |
-
 | man  | Contenido de la celda  | Contenido de la celda |
 |sudo su | Contenido de la celda  | Contenido de la celda  |
 | whoami | Contenido de la celda  | Contenido de la celda  |
@@ -17,7 +16,7 @@
 |ls -l| Contenido de la celda  | Contenido de la celda  |
 |Copiar Directorios Dir/Dir/Dir mkdir | Contenido de la celda  | Contenido de la celda  |
 |telnet towel.blinkenlights.nl| Contenido de la celda  | Contenido de la celda  |
-| ps -aux \| Contenido de la celda  | Contenido de la celda  |
-|ps -aux | grep “firefox”| Contenido de la celda  | Contenido de la celda  |
+| ps -aux | Contenido de la celda  | Contenido de la celda  |
+|ps -aux \| grep “firefox”| Contenido de la celda  | Contenido de la celda  |
 |ip addr| Contenido de la celda  | Contenido de la celda  |
 |top|  Contenido de la celda |     ontenido de la celda    |
