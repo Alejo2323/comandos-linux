@@ -12,5 +12,5 @@
 |rm rm -R: Recursive| Contenido de la celda  | Contenido de la celda  |
 |Creación de usuarios: useradd| Contenido de la celda  | Contenido de la celda  |
 |mpasswd| Contenido de la celda  | Contenido de la celda  |
-|archivo largo /|less | Contenido de la celda  | Contenido de la celda  |
+|archivo largo \|less | Contenido de la celda  | Contenido de la celda  |
 |mv| Contenido de la celda  | Contenido de la celda  |
