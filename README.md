@@ -28,3 +28,4 @@
 |cat|Muestra el contenido de un archivo utilizando la salida estándar (pantalla).|cat [-benstvA] archivos|
 |find|Muestra una lista con los archivos que coinciden con un criterio especifico.|find [ruta] [opciones]|
 |grep|Busca en uno o más archivos las líneas que coincidan con una expresión regular (modelo de búsqueda).|grep [opciones] modelo archivos|
+|touch|permite actualizar los tiempos de acceso y modificación de los archivos especificados./la mayoría de las veces no se utilizará touch para modificar las fechas de los archivos, sino para crear nuevos archivos vacíos|touch new_file_name|
