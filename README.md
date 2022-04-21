@@ -47,3 +47,5 @@
 |exit| Con él, puedes terminar una sesión de shell y, en la mayoría de los casos, cerrar automáticamente el terminal que estás utilizando:|$ exit|
 | unzip | Permite extraer el contenido de un archivo .zip desde el terminal.  |    unzip images.zip |
 |apt, yum, pacman|Independientemente de la distribución de Linux que utilices, es probable que uses gestores de paquetes para instalar, actualizar y eliminar el software que utilizas a diario.| sudo apt install [paquete a instalar] o sudo yum install [paquete a instalar]o  sudo pacman -S [paquete a instalar] |
+|echo | Muestra el texto definido en el terminal |echo "Hello Wordl"|
+|Kill| termina o mata un proceso  | kill [proceso]|
