@@ -4,7 +4,7 @@
 |sudo  |  Es un comando que ejecuta un indicador elevado sin necesidad de cambiar su identidad.| $ sudo apt-get update  |
 | su | acrónimo de superuser do o replace user do , es un comando que ejecuta un indicador elevado sin necesidad de cambiar su identidad.| $ su  |
 | whoami | muestra el nombre del usuario actualmente conectado. | whoami [OPTION] |
-| whoami | muestra el nombre del usuario actualmente conectado. |MORE [/E [/C] [/P] [/S] [/Tn] [+n]] < [unidad:][ruta]archivo |
+| more | muestra el nombre del usuario actualmente conectado. |MORE [/E [/C] [/P] [/S] [/Tn] [+n]] < [unidad:][ruta]archivo |
 |tail -n| Contenido de la celda  | Contenido de la celda  |
 |head -n| Contenido de la celda  | Contenido de la celda  |
 |cp|Contenido de la celda  | Contenido de la celda  |
