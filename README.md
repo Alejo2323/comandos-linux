@@ -5,6 +5,7 @@
 | su | acrónimo de superuser do o replace user do , es un comando que ejecuta un indicador elevado sin necesidad de cambiar su identidad.| $ su  |
 | whoami | muestra el nombre del usuario actualmente conectado. | whoami [OPTION] |
 | more | muestra el nombre del usuario actualmente conectado. |MORE [/E [/C] [/P] [/S] [/Tn] [+n]] < [unidad:][ruta]archivo |
+|tail |Es el complemento del comando de cabeza . El comando de cola, como su nombre lo indica, imprime el último número N de datos de la entrada dada. | cola [OPCIÓN]... [ARCHIVO]...|
 |tail -n| Contenido de la celda  | Contenido de la celda  |
 |head -n| Contenido de la celda  | Contenido de la celda  |
 |cp|Contenido de la celda  | Contenido de la celda  |
