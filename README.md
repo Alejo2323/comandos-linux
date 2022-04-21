@@ -44,3 +44,6 @@
 |	/Tmp|Sirve para almacenamiento de todos los archivos temporales de todo tipo los cuales sea de elementos sobre sistema, así como diferentes aplicaciones por ejemplo los navegadores de Internet (Firefox, Chromium o Chrome.)||
 |	/Usr|Estos directorios actualmente nos ayudan para almacenamiento sobre todos los archivos ya su lectura, así como relativos. Además, incluyen software instalado que obtenemos por medio de paquetes de cada distribución. ||
 |	Var|El Var son archivos con información sobre sistema, por ejemplos archivos de logs, correos electrónicos de los usuarios, también bases de datos, el cache con su información que almacena. ||
+|exit| Con él, puedes terminar una sesión de shell y, en la mayoría de los casos, cerrar automáticamente el terminal que estás utilizando:|$ exit|
+| unzip | Permite extraer el contenido de un archivo .zip desde el terminal.  |    unzip images.zip |
+|apt, yum, pacman|Independientemente de la distribución de Linux que utilices, es probable que uses gestores de paquetes para instalar, actualizar y eliminar el software que utilizas a diario.| sudo apt install [paquete a instalar] o sudo yum install [paquete a instalar]o  sudo pacman -S [paquete a instalar] |
