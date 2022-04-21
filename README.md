@@ -3,10 +3,8 @@
 | man  |mostrar el manual de usuario de cualquier comando  | $ / usr / share / man.|
 |sudo  |  Es un comando que ejecuta un indicador elevado sin necesidad de cambiar su identidad.| $ sudo apt-get update  |
 | su | acrónimo de superuser do o replace user do , es un comando que ejecuta un indicador elevado sin necesidad de cambiar su identidad.| $ su  |
-
-| whoami | muestra el nombre del usuario actualmente conectado. | whoami [OPTION]| | more  | Muestra la información pantalla a pantalla. | MORE [/E [/C] [/P] [/S] [/Tn] [+n]] < [unidad:][ruta]archivo
-comando | MORE [/E [/C] [/P] [/S] [/Tn] [+n]]
-MORE /E [/C] [/P] [/S] [/Tn] [+n] [archivos] |
+| whoami | muestra el nombre del usuario actualmente conectado. | whoami [OPTION] |
+| whoami | muestra el nombre del usuario actualmente conectado. |MORE [/E [/C] [/P] [/S] [/Tn] [+n]] < [unidad:][ruta]archivo |
 
 |tail -n| Contenido de la celda  | Contenido de la celda  |
 |head -n| Contenido de la celda  | Contenido de la celda  |
