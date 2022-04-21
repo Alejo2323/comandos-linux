@@ -51,3 +51,7 @@
 |Kill| termina o mata un proceso  | kill [proceso]|
 |ping   |La utilidad de terminal de red más popular que se utiliza para probar la conectividad de la red| ping [paquete]   / ping google.com|
 |Neofetch| Herramienta CLI (command-line interface) que muestra información sobre tu sistema -como la versión del kernel, el shell y el hardware- junto a un logotipo ASCII de tu distribución de Linux | sudo noeftch |
+|reboot| reiniciar el sistema | # reboot now|
+|df -h |mostrar una lista de las particiones montadas| # df -h|
+|yum | Descargar e Instalar un paquete rpm.| [paquete a instalar] |
+|mkswap|crear fichero de sistema swap.| mkswap [Origen]   o  mkswap /dev/hda3 |
