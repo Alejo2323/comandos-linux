@@ -1,6 +1,6 @@
 | Comando | Descripción | Ejemplo de Uso  |
 |  :---:  |   :---:  |  :---:  |
-| man  | Contenido de la celda  | Contenido de la celda |
+| man  |mostrar el manual de usuario de cualquier comando  | Contenido de la celda |
 |sudo su | Contenido de la celda  | Contenido de la celda  |
 | whoami | Contenido de la celda  | Contenido de la celda  |
 | more  | Contenido de la celda  | Contenido de la celda  |
