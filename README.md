@@ -6,7 +6,7 @@
 | whoami | muestra el nombre del usuario actualmente conectado. | whoami [OPTION] |
 | more | muestra el nombre del usuario actualmente conectado. |MORE [/E [/C] [/P] [/S] [/Tn] [+n]] < [unidad:][ruta]archivo |
 |tail |Es el complemento del comando de cabeza . El comando de cola, como su nombre lo indica, imprime el último número N de datos de la entrada dada. | cola [OPCIÓN]... [ARCHIVO]...|
-|tail -n| Contenido de la celda  | Contenido de la celda  |
+|tail -n| Imprime las últimas líneas 'num' en lugar de las últimas 10 líneas. num es obligatorio especificarlo en el comando; de lo contrario, muestra un error. |  tail -n 3 estado.txt |
 |head -n| Contenido de la celda  | Contenido de la celda  |
 |cp|Contenido de la celda  | Contenido de la celda  |
 |alias| Contenido de la celda  | Contenido de la celda  |
