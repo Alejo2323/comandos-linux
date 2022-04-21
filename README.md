@@ -1,9 +1,8 @@
 | Comando | Descripción | Ejemplo de Uso  |
 |  :---:  |   :---:  |  :---:  |
-| man  |mostrar el manual de usuario de cualquier comando  | / usr / share / man.|
-|sudo su | Contenido de la celda  | Contenido de la celda  |
-| whoami | Contenido de la celda  | Contenido de la celda  |
-| more  | Contenido de la celda  | Contenido de la celda  |
+MORE [/E [/C] [/P] [/S] [/Tn] [+n]] < [unidad:][ruta]archivo
+comando | MORE [/E [/C] [/P] [/S] [/Tn] [+n]]
+MORE /E [/C] [/P] [/S] [/Tn] [+n] [archivos]
 |tail -n| Contenido de la celda  | Contenido de la celda  |
 |head -n| Contenido de la celda  | Contenido de la celda  |
 |cp|Contenido de la celda  | Contenido de la celda  |
