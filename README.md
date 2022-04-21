@@ -7,12 +7,14 @@
 | more | muestra el nombre del usuario actualmente conectado. |MORE [/E [/C] [/P] [/S] [/Tn] [+n]] < [unidad:][ruta]archivo |
 |tail |Es el complemento del comando de cabeza . El comando de cola, como su nombre lo indica, imprime el último número N de datos de la entrada dada. | cola [OPCIÓN]... [ARCHIVO]...|
 |tail -n| Imprime las últimas líneas 'num' en lugar de las últimas 10 líneas. num es obligatorio especificarlo en el comando; de lo contrario, muestra un error. |  tail -n 3 estado.txt |
+|pwd|  para identificar donde esta |  $ pwd|
+|ls | es uno de los muchos comandos de Linux que permiten a un usuario listar archivos o directorios| $ ls 
 |head -n| Contenido de la celda  | Contenido de la celda  |
-|cp|Contenido de la celda  | Contenido de la celda  |
+|cp|copiar el contenido  ya sea de carpeta o archivo | cp [Origen] [Destino]  |
 |alias| Contenido de la celda  | Contenido de la celda  |
-|mv| Contenido de la celda  | Contenido de la celda  |
-|rm rm -R: Recursive| Contenido de la celda  | Contenido de la celda  |
-|Creación de usuarios: useradd| Contenido de la celda  | Contenido de la celda  |
+|mv| para mover  carpetas o archivos a otro sitio  | mv [Origen] [Destino]|
+|rm| pra borrar archivos|  rm  [Origen] |
+|Creación de usuarios: useradd| Con el comando useradd podemos crear usuarios desde el terminal.  | useradd [options] nombre_de_usuario /useradd asolano |
 |mpasswd| Contenido de la celda  | Contenido de la celda  |
 |archivo largo \|  less | Contenido de la celda  | Contenido de la celda  |
 |ls -l| Contenido de la celda  | Contenido de la celda  |
