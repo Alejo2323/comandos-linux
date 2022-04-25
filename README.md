@@ -54,4 +54,4 @@
 |reboot| reiniciar el sistema | # reboot now|
 |df -h |mostrar una lista de las particiones montadas| # df -h|
 |yum | Descargar e Instalar un paquete rpm.| [paquete a instalar] |
-|mkswap|crear fichero de sistema swap.| mkswap [Origen]   o  mkswap /dev/hda3 |
+|mkswap|crear fichero de sistema swap.| mkswap [Origen]   o  mkswap /dev/hda3 | 
