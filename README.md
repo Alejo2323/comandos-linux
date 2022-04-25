@@ -20,30 +20,28 @@
 |mkdir|crear directorios.| $ mkdir [Destino] / mkdir /home/desktop/lista de alumnos.txt|
 |ls -l| muestra la lista de archivos con formato largo y con información detallada (tamaño, usuario, grupo, permisos etc.). | ls -l / ls -l [Origen] |
 |telnet towel.blinkenlights.nl| Contenido de la celda  | Contenido de la celda  |
-| ps -aux | Contenido de la celda  | Contenido de la celda  |
-|ps -aux \| grep “firefox”| Contenido de la celda  | Contenido de la celda  |
-|ip addr| Contenido de la celda  | Contenido de la celda  |
-|top|  Contenido de la celda |     ontenido de la celda    | 
+|ip addr| Para identificar la ip de la maquina  | $ ip addr  |
+|top|  Muestra un resumen del estado de nuestro sistema y la lista de procesos que se están ejecutando |    top -v    | 
 |chmod|Modifica los permisos de uno o más archivos o directorios.|chmod [Opciones] [permiso_descripción] archivo|
 |cat|Muestra el contenido de un archivo utilizando la salida estándar (pantalla).|cat [-benstvA] archivos|
 |find|Muestra una lista con los archivos que coinciden con un criterio especifico.|find [ruta] [opciones]|
 |grep|Busca en uno o más archivos las líneas que coincidan con una expresión regular (modelo de búsqueda).|grep [opciones] modelo archivos|
 |touch|permite actualizar los tiempos de acceso y modificación de los archivos especificados. ///  La mayoría de las veces no se utilizará touch para modificar las fechas de los archivos, sino para crear nuevos archivos vacíos|touch new_file_name|
-|	/Bin|Este es un directorio donde almacenamos los binarios por lo que es estático y ayuda para la que haga el almacenamiento de lo que el usuario ejecuta.||
-|	/Boot|El Boot es que contine los ejecutables e iguala que el /Bin es estático solo que /Boot es para el arranque del sistema al cual están asociados.||
-|/Dev|Con el /Dev es un directorio el cual tiene los dispositivos que son de almacenamiento. Es importante indicar que es podría ser un disco duro, una memoria de USB, el lector de discos CDROM (cabe indicar que este deberá estar con una conexión en el equipo), entre otros. También sirve para realizar particiones al disco duro mediante comandos.||
-|	/Etc|El Etc es un almacenamiento el cual se encarga por la configuración ya sea para los componentes para el sistema operativo sino también para las aplicaciones o programas a instalar.||
-|	/Home|Este se directorio se encarga del almacenamiento de los archivos que el usuario requiera ir guardando por ejemplo lista de canciones, videos, archivos, fotos, etc.||
+|	/Bin|Este es un directorio donde almacenamos los binarios por lo que es estático y ayuda para la que haga el almacenamiento de lo que el usuario ejecuta.|ls /bin|
+|	/Boot|El Boot es que contine los ejecutables e iguala que el /Bin es estático solo que /Boot es para el arranque del sistema al cual están asociados.|#boot=/dev/sda|
+|/Dev|Con el /Dev es un directorio el cual tiene los dispositivos que son de almacenamiento. Es importante indicar que es podría ser un disco duro, una memoria de USB, el lector de discos CDROM (cabe indicar que este deberá estar con una conexión en el equipo), entre otros. También sirve para realizar particiones al disco duro mediante comandos.|/dev/psaux (PS/2)|
+|	/Etc|El Etc es un almacenamiento el cual se encarga por la configuración ya sea para los componentes para el sistema operativo sino también para las aplicaciones o programas a instalar.|$ ls /etc|
+|	/Home|Este se directorio se encarga del almacenamiento de los archivos que el usuario requiera ir guardando por ejemplo lista de canciones, videos, archivos, fotos, etc.| mkdir /Home/usuario/lista canciones.txt |
 |/Lib|Este archivo se encarga de las bibliotecas más esenciales para ser ejecutadas de manera correcta por los binarios.||
 |/Media|Es el punto de montaje con el que todos los volúmenes lógicos ya sean temporales como externas (memorias USB), entre otras particiones de disco.||
-|	/Opt|El Opt en algún modo podría ser básicamente una extensión del directorio al igual de todos aquellos archivos que son de para lectura y que de igual manera son parte de programas autocontenidos.||
-|	/Proc|Este directorio son procesos y aplicaciones que contienen y estos estarán ejecutándose en determinados momentos en el sistema, pero estos no guardan en nada realidad sin no almacena los archivos que son virtuales a lo que decimos que el contenido de estos directorios es similar a nulo.||
-|	/Root|Es similar al directorio /Home. La diferencia esta se encuentra dentro de /home todas sus carpetas y subcarpetas, definimos que siempre está en su propia carpeta, pero estando en raíz del sistema indirectamente.||
-|	/Srv|Este sirve para el almacenamiento de los archivos y también directorios que sean relativos con los servidores que entre sus condiciones estas puedan estar instalados en si de mismo sistema, como servidor web (FTP, CVS) por ejemplo||
+|	/Opt|El Opt en algún modo podría ser básicamente una extensión del directorio al igual de todos aquellos archivos que son de para lectura y que de igual manera son parte de programas autocontenidos.|/lib/'machine-architecture'|
+|	/Proc|Este directorio son procesos y aplicaciones que contienen y estos estarán ejecutándose en determinados momentos en el sistema, pero estos no guardan en nada realidad sin no almacena los archivos que son virtuales a lo que decimos que el contenido de estos directorios es similar a nulo.|/proc/cpuinfo|
+|	/Root|Es similar al directorio /Home. La diferencia esta se encuentra dentro de /home todas sus carpetas y subcarpetas, definimos que siempre está en su propia carpeta, pero estando en raíz del sistema indirectamente.|/root/|
+|	/Srv|Este sirve para el almacenamiento de los archivos y también directorios que sean relativos con los servidores que entre sus condiciones estas puedan estar instalados en si de mismo sistema, como servidor web (FTP, CVS) por ejemplo|add server web_serv example.com -queryType SRV|
 |	/Sys|Es similar a / proc al cual contiene archivos que sean provenientes de la información del kernel y es relativa sobre eventos del SO (Ssistema Operativo).||
-|	/Tmp|Sirve para almacenamiento de todos los archivos temporales de todo tipo los cuales sea de elementos sobre sistema, así como diferentes aplicaciones por ejemplo los navegadores de Internet (Firefox, Chromium o Chrome.)||
-|	/Usr|Estos directorios actualmente nos ayudan para almacenamiento sobre todos los archivos ya su lectura, así como relativos. Además, incluyen software instalado que obtenemos por medio de paquetes de cada distribución. ||
-|	Var|El Var son archivos con información sobre sistema, por ejemplos archivos de logs, correos electrónicos de los usuarios, también bases de datos, el cache con su información que almacena. ||
+|	/Tmp|Sirve para almacenamiento de todos los archivos temporales de todo tipo los cuales sea de elementos sobre sistema, así como diferentes aplicaciones por ejemplo los navegadores de Internet (Firefox, Chromium o Chrome.)| /var/log/wtmp |
+|	/Usr|Estos directorios actualmente nos ayudan para almacenamiento sobre todos los archivos ya su lectura, así como relativos. Además, incluyen software instalado que obtenemos por medio de paquetes de cada distribución. |/usr/doc|
+| /Var|El Var son archivos con información sobre sistema, por ejemplos archivos de logs, correos electrónicos de los usuarios, también bases de datos, el cache con su información que almacena. |/var/cache| 
 |exit| Con él, puedes terminar una sesión de shell y, en la mayoría de los casos, cerrar automáticamente el terminal que estás utilizando:|$ exit|
 | unzip | Permite extraer el contenido de un archivo .zip desde el terminal.  |    unzip images.zip |
 |apt, yum, pacman|Independientemente de la distribución de Linux que utilices, es probable que uses gestores de paquetes para instalar, actualizar y eliminar el software que utilizas a diario.| sudo apt install [paquete a instalar] o sudo yum install [paquete a instalar]o  sudo pacman -S [paquete a instalar] |
